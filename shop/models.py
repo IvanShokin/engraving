@@ -6,5 +6,3 @@ class Service(models.Model):
     description = models.TextField()
     created_date = models.DateTimeField(auto_now_add=True)
     photo = models.ImageField(upload_to='photos/%Y/%m/%d/')
-
-
